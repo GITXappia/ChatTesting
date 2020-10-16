@@ -47,15 +47,16 @@
 		}];
 		
 		embedded_svc.settings.extraPrechatInfo = [{
+			"entityName": "Contact",
+		  	"showOnCreate": false,
+		  	"saveToTranscript": "ContactId",
 			"entityFieldMaps": [{
 				"doCreate": true,
 				"doFind": true,
 				"fieldName": "JSON_User_Mex__c",
 				"isExactMatch": true,
 				"label": "JSON User Mex"
-			}],
-			"entityName": "Contact",
-  			"saveToTranscript": "ContactId"
+			}]
 		}];
 		
 		embedded_svc.init(
