@@ -49,11 +49,11 @@
 		
 		embedded_svc.settings.extraPrechatInfo = [{
 			"entityName": "Account",
-		  	"showOnCreate": true,
+		  	"showOnCreate": false,
 			"linkToEntityName": "LiveChatTranscript",
   			"linkToEntityField": "AccountId",
 			"entityFieldMaps": [{
-				"doCreate": false,
+				"doCreate": true,
 				"doFind": true,
 				"fieldName": "UalaUsername__c",
 				"isExactMatch": true,
